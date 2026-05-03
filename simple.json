@@ -1,0 +1,101 @@
+[
+  {
+    "order_id": "ORD-001",
+    "created_at": "2024-03-15T10:23:00Z",
+    "customer": {
+      "id": "C-101",
+      "name": "Алексей Морозов",
+      "email": "morozov@mail.ru",
+      "address": {
+        "city": "Москва",
+        "street": "ул. Ленина, 42",
+        "zip": "101000"
+      }
+    },
+    "items": [
+      { "sku": "LAPTOP-X1", "name": "Ноутбук Lenovo", "qty": 1, "price": 85000 },
+      { "sku": "MOUSE-G502", "name": "Мышь Logitech", "qty": 2, "price": 4500 }
+    ],
+    "payment": { "method": "card", "status": "paid", "amount": 94000 },
+    "status": "delivered"
+  },
+  {
+    "order_id": "ORD-002",
+    "created_at": "2024-03-16T14:05:00Z",
+    "customer": {
+      "id": "C-102",
+      "name": "Мария Соколова",
+      "email": "sokolova@yandex.ru",
+      "address": {
+        "city": "Санкт-Петербург",
+        "street": "Невский пр., 10",
+        "zip": "190000"
+      }
+    },
+    "items": [
+      { "sku": "PHONE-S24", "name": "Samsung Galaxy S24", "qty": 1, "price": 72000 },
+      { "sku": "CASE-S24", "name": "Чехол для S24", "qty": 1, "price": 1500 }
+    ],
+    "payment": { "method": "sbp", "status": "paid", "amount": 73500 },
+    "status": "shipped"
+  },
+  {
+    "order_id": "ORD-003",
+    "created_at": "2024-03-17T09:11:00Z",
+    "customer": {
+      "id": "C-103",
+      "name": "Дмитрий Волков",
+      "email": "volkov@gmail.com",
+      "address": {
+        "city": "Казань",
+        "street": "ул. Баумана, 5",
+        "zip": "420000"
+      }
+    },
+    "items": [
+      { "sku": "TABLET-I13", "name": "iPad Pro 13", "qty": 1, "price": 120000 },
+      { "sku": "PENCIL-2", "name": "Apple Pencil 2", "qty": 1, "price": 12000 },
+      { "sku": "KEYBOARD-MK", "name": "Magic Keyboard", "qty": 1, "price": 18000 }
+    ],
+    "payment": { "method": "credit", "status": "pending", "amount": 150000 },
+    "status": "processing"
+  },
+  {
+    "order_id": "ORD-004",
+    "created_at": "2024-03-18T16:45:00Z",
+    "customer": {
+      "id": "C-101",
+      "name": "Алексей Морозов",
+      "email": "morozov@mail.ru",
+      "address": {
+        "city": "Москва",
+        "street": "ул. Ленина, 42",
+        "zip": "101000"
+      }
+    },
+    "items": [
+      { "sku": "MONITOR-27", "name": "Монитор Dell 27\"", "qty": 2, "price": 35000 }
+    ],
+    "payment": { "method": "card", "status": "paid", "amount": 70000 },
+    "status": "delivered"
+  },
+  {
+    "order_id": "ORD-005",
+    "created_at": "2024-03-19T11:30:00Z",
+    "customer": {
+      "id": "C-104",
+      "name": "Екатерина Лебедева",
+      "email": "lebedeva@inbox.ru",
+      "address": {
+        "city": "Новосибирск",
+        "street": "Красный пр., 18",
+        "zip": "630000"
+      }
+    },
+    "items": [
+      { "sku": "HEADPHONES-WH", "name": "Sony WH-1000XM5", "qty": 1, "price": 28000 }
+    ],
+    "payment": { "method": "sbp", "status": "failed", "amount": 28000 },
+    "status": "cancelled"
+  }
+]
