@@ -13,3 +13,24 @@
 
 ![](data_proc_save_and_read.png)
 
+
+## Data Transfer
+
+Создал продьюсер и эндпойнт под него 
+
+![](producer_kafka.png) 
+
+
+Создал консьюмер и экндпойнт под него
+
+![](consumer_mongo.png)
+
+
+Активировал трансфер
+
+![](active_transfer.png)
+
+
+Проверил таблицу в StoreDoc
+
+![](doc_check.png)
